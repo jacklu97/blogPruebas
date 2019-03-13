@@ -193,3 +193,32 @@ body {
     width: 100%;
     margin-bottom: 20px;
 }
+
+.blog .contenedor .articulos-blog .articulo .texto-articulo{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.blog .contenedor .articulos-blog .articulo .texto-articulo p{
+    margin-bottom: 20px;
+    color: #363940;
+}
+
+.blog .contenedor .articulos-blog .articulo .boton{
+    text-align: center;
+}
+
+.blog .contenedor .articulos-blog .articulo .boton a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    border: 1px solid #bababa;
+    font-size: 14px;
+    color: #7d7d7d
+}
+
+.blog .contenedor .articulos-blog .articulo .boton a:hover{
+    background: #7d7d7d;
+    color: white;
+}
