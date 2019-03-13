@@ -127,3 +127,69 @@ body {
 .menu-principal .contenedor ul li a:hover{
     color: #8b919c;
 }
+
+/* Estilos de banner */
+
+.main .banner{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.main .banner .contenedor .banner-principal{
+    width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+    width: 100%;
+}
+
+/* estilos sección blog*/
+.blog{
+    background: #f7f7f7;
+    padding: 40px 0;
+}
+
+.blog .contenedor{
+    overflow: hidden;
+}
+
+/*articulos blog*/
+
+.blog .contenedor .articulos-blog{
+    float: left;
+    width: 68%;
+}
+
+.blog .contenedor .articulos-blog .articulo{
+    background: #ffffff;
+    padding: 60px 0;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos-blog .articulo .fecha-articulo{
+    color: #c7c7c7;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos-blog .articulo .titulo-articulo{
+    color: #363940;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos-blog .articulo .categoria-articulo{
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog .contenedor .articulos-blog .articulo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
