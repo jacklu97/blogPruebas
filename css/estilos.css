@@ -222,3 +222,89 @@ body {
     background: #7d7d7d;
     color: white;
 }
+
+/*aside*/
+
+.aside{
+    float: right;
+    width: 28%;
+}
+
+.aside .widget{
+    background: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #f0d0f0;
+}
+
+.aside .widget .autor-widget .foto-autor{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aside .widget .autor-widget .foto-autor img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.aside .widget .autor-widget .datos-autor{
+    text-align: center;
+}
+
+.aside .widget .autor-widget .datos-autor .nombre{
+    color: #363940;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.aside .widget .autor-widget .datos-autor .profesion{
+    color: #9c9c9c;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.aside .widget .autor-widget .datos-autor .info{
+    color: #363940;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.aside .widget .destacados-widget{
+    text-align: center;
+}
+
+.aside .widget .destacados-widget .titulo-destacados{
+    color: #363940;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.aside .widget .destacados-widget ul{
+    list-style: none;
+    text-align: left;
+    border-top: 1px solid #f0f0f0;
+}
+
+.aside .widget .destacados-widget ul li a{
+    color: #363940;
+    font-size: 16px;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+}
+
+.aside .widget .destacados-widget ul li a:hover{
+    text-decoration: underline;
+    color: #8b919c;
+}
+
+/*Footer*/
+
+.footer{
+    background: white;
+    padding: 40px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    color: #9c9c9c;
+}
